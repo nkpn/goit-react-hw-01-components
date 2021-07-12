@@ -1,0 +1,26 @@
+.Status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.Avatar {
+  border-radius: 5px;
+  margin: 0 15px;
+}
+
+.Name {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(38, 42, 46);
+}
+
+.IsOnline {
+  composes: Status;
+  background-color: #38ef7d;
+}
+
+.IsOffline {
+  composes: Status;
+  background-color: #ed213a;
+}
